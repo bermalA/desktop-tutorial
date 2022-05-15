@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./advertisement.css">
-    <link rel="shortcut icon" type="image/png" href="logoust.png"/>
+    <link rel="shortcut icon" type="image/png" href="logoust.png" />
     <title>Document</title>
 </head>
 
@@ -37,38 +37,80 @@
         </div>
     </nav>
     <div class="scroll-controls">
-        <button class="btn btn-success"><a href="#0" class="text-white"><i class="fas fa-angle-double-up"></i></a></button>
-        <button class="btn btn-success" id="upbtn" ><a href="#1" class="text-white"><i class="fas fa-angle-up"></i></a></button>
-        <button class="btn btn-success"><a class="text-white" id="downAnchor" href="#2"><i class="fas fa-angle-down"></i></a></button>
+        <button class="btn btn-success"><a href="#0" class="text-white"><i
+                    class="fas fa-angle-double-up"></i></a></button>
+        <button class="btn btn-success" id="upbtn"><a href="#1" class="text-white"><i
+                    class="fas fa-angle-up"></i></a></button>
+        <button class="btn btn-success"><a class="text-white" id="downAnchor" href="#2"><i
+                    class="fas fa-angle-down"></i></a></button>
     </div>
-<div class="container-1">
-    <div class="content d-flex justify-content-center align-content-center" id="1">
-        <div class="position-container" style="height: 600px; width:1000px; position:relative; left:500px; top:5%; background-color:rgba(255,255,255,0); ">
-            <div class="left-rightbtn">
-                <button class="btn btn-info prev" onclick="plusSlides(-1)"><i class="fas fa-angle-left"></i></button>
-                <button class="btn btn-info next" onclick="plusSlides(1)"><i class="fas fa-angle-right"></i></button>
+    <div class="container-1">
+        <div class="content d-flex justify-content-center align-content-center" id="1">
+            <div class="position-container"
+                style="height: 600px; width:1000px; position:relative; left:500px; top:5%; background-color:rgba(255,255,255,0); ">
+                <div class="left-rightbtn">
+                    <button class="btn prev" onclick="plusSlides(-1)"><i
+                            class="fas fa-angle-left"></i></button>
+                    <button class="btn next" onclick="plusSlides(1)"><i
+                            class="fas fa-angle-right"></i></button>
+                </div>
             </div>
-            <div class="dots text-align-center">
-                <span class="dot active"onclick="currentSlide(1)"></span>
-                <span class="dot" style="left: 47%;" onclick="currentSlide(2)"></span>
+            <div class="slides fade">
+                <div class="position-container">
+                    <div class="numbertext">1 / 7</div>
+                    <img class="photo mb-5 mb-2" style="width: 1000px; height: 600px;z-index:1;"
+                        src="images/amazon.jpeg">
+                    <div class="text" style="z-index:2;">Amazon link</div>
+                </div>
             </div>
-        </div>
-        <div class="slides fade">
-            <div class="position-container">
-                <div class="numbertext">1 / 7</div>
-                <img class="photo mb-5 mb-2" style="width: 1000px; height: 600px;z-index:1;" src="images/amazon.jpeg">
-                <div class="text bg-info"style="z-index:2;">Amazon link</div>
+            <div class="slides fade ">
+                <div class="position-container">
+                    <div class="numbertext">2 / 7</div>
+                    <img class="photo mb-5 mb-2" style="width: 1000px; height: 600px;z-index:1;" src="images/apple.jpg">
+                    <div class="text" style="z-index:2;">Apple link</div>
+                </div>
             </div>
-        </div>
-        <div class="slides fade ">
-            <div class="position-container">
-                <div class="numbertext">1 / 7</div>
-                <img class="photo mb-5 mb-2" style="width: 1000px; height: 600px;z-index:1;" src="images/apple.jpg">
-                <div class="text bg-info"style="z-index:2;">Amazon link</div>
+            <div class="slides fade ">
+                <div class="position-container">
+                    <div class="numbertext">3 / 7</div>
+                    <img class="photo mb-5 mb-2" style="width: 1000px; height: 600px;z-index:1;"
+                        src="images/ferrari.png">
+                    <div class="text" style="z-index:2;">Ferrari link</div>
+                </div>
             </div>
+            <div class="slides fade ">
+                <div class="position-container">
+                    <div class="numbertext">4 / 7</div>
+                    <img class="photo mb-5 mb-2" style="width: 1000px; height: 600px;z-index:1;"
+                        src="images/lacoste.png">
+                    <div class="text" style="z-index:2;">Lacoste link</div>
+                </div>
+            </div>
+            <div class="slides fade ">
+                <div class="position-container">
+                    <div class="numbertext text-white">5 / 7</div>
+                    <img class="photo mb-5 mb-2" style="width: 1000px; height: 600px;z-index:1;" src="images/nike.jpg">
+                    <div class="text" style="z-index:2;">Nike link</div>
+                </div>
+            </div>
+            <div class="slides fade ">
+                <div class="position-container">
+                    <div class="numbertext">6 / 7</div>
+                    <img class="photo mb-5 mb-2" style="width: 1000px; height: 600px;z-index:1;"
+                        src="images/pepsi.jpeg">
+                    <div class="text" style="z-index:2;">Pepsi link</div>
+                </div>
+            </div>
+            <div class="slides fade ">
+                <div class="position-container">
+                    <div class="numbertext">7 / 7</div>
+                    <img class="photo mb-5 mb-2" style="width: 1000px; height: 600px;z-index:1;" src="images/uber.jpg">
+                    <div class="text" style="z-index:2;">Uber link</div>
+                </div>
+            </div>
+
         </div>
     </div>
-</div>
     <div class="space-container">
         <footer>made by ALTUAR</footer>
     </div>
